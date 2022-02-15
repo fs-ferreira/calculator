@@ -1,0 +1,20 @@
+.table {
+  width: 90vw;
+}
+thead {
+  height: 8vh;
+  font-size: medium;
+}
+.data {
+  background: #fff;
+  height: 8vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 100ms ease-in-out;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.data:hover {
+  transform: scale(1.02);
+  background-color: #ebf4f5;
+}
